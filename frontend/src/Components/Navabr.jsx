@@ -52,7 +52,7 @@ const Navbar = () => {
                     
                     <IconButton
                       as="a"
-                      href="https://github.com/swayamvirmani/ResuMind"
+                      href="https://github.com/09khushi09/ResuHelp"
                       target="_blank"
                       rel="noopener noreferrer"
                       icon={<FaGithub style={{ fontSize: '2.2rem' }} />}
