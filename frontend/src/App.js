@@ -5,6 +5,7 @@ import Compare from './Pages/Compare.jsx'
 import Navbar from './Components/Navabr.jsx'
 import Creater from './Pages/Creater.jsx'
 import Home from './Pages/Home.jsx'
+import { Analytics } from "@vercel/analytics/react"
 // import PdfToTextExtractor from './Pages/PdfToTextExtractor.jsx'
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
             <Route path='/'element={<Home/>}></Route>
         </Routes>
         </BrowserRouter>
+        <Analytics />
     </div>
   )
 }
