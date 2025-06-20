@@ -12,7 +12,7 @@ const Compare = () => {
   const toast = useToast();
 
   // ✅ Add your backend URL here
-  const BACKEND_URL = "https://resumind-backend.onrender.com"; 
+  const BACKEND_URL = "https://resuhelp.onrender.com"; 
 
   const handleFileChange1 = (e) => {
     const file = e.target.files[0];

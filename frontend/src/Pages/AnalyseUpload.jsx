@@ -11,7 +11,7 @@ const AnalyseUpload = () => {
   const [analysisResponse, setAnalysisResponse] = useState(null);
   const toast = useToast();
 
-  const BACKEND_URL = "https://resumind-backend.onrender.com";
+  const BACKEND_URL = "https://resuhelp.onrender.com";
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
