@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://resu-help-pied.vercel.app/', // 🔁 Replace with your actual Vercel URL
+  origin: 'https://resu-help-pied.vercel.app', // 🔁 Replace with your actual Vercel URL
   credentials: true,
 }));
 app.use(express.json());
